@@ -26,3 +26,5 @@ Growing trees
 Random Forest
 --------
 * How it works :download:`How_it_works.pdf <pdf/rf_how_it_works.pdf>`. 
+* How to evaluate :download:`How_to_evaluate.pdf <pdf/rf_how_to_evaluate.pdf>`.
+* How to optimize :download:`How_to_optimize.pdf <pdf/rf_how_to_optimize.pdf>`.  
