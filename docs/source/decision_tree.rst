@@ -20,6 +20,6 @@ Contents
 
 .. toctree::
 
-   dt_regression <Regression>
-   dt_classification <Classification>
+   dt_regression
+   dt_classification
    
