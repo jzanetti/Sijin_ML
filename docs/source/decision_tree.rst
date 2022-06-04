@@ -10,3 +10,16 @@ It uses a decision tree (as a predictive model) to go from observations about an
 * Decision trees where the target variable can take continuous values (typically real numbers) are called regression trees. 
 
 Decision trees are among the most popular machine learning algorithms given their intelligibility and simplicity.
+
+.. Interesting fact::
+
+   One of the first papers in Decision Tree is Quinlan, J. R. 1986. Induction of Decision Trees. Mach. Learn. 1, 1 (Mar. 1986), 81-106
+
+Contents
+--------
+
+.. toctree::
+
+   dt_regression <Regression>
+   dt_classification <Classification>
+   
