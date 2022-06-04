@@ -15,10 +15,12 @@ Decision trees are among the most popular machine learning algorithms given thei
 
    Quinlan, J. R. 1986. Induction of Decision Trees. Mach. Learn. 1, 1 (Mar. 1986), 81-106
 
-Growing a tree
+Growing trees
 --------
 * Introduction :download:`decision_tree_introduction.pdf <dt_regression_vs_classification.pdf>`.
+* Classification :download:`classification.pdf <dt_classification.pdf>`
 * Regression :download:`regression.pdf <dt_regression.pdf>`.
+* Overfitting for decision tree :download:`overfitting_dt.pdf <dt_overfitting.pdf>`
 
 Random Forest
 --------
