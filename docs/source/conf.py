@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Sijin ML tutorial'
+copyright = '2021, Sijin Zhang'
+author = 'Sijin Zhang'
 
 release = '0.1'
 version = '0.1.0'
