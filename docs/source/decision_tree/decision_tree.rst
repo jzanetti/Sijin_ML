@@ -21,6 +21,7 @@ Growing trees
 * Classification :download:`classification.pdf <dt_classification.pdf>`
 * Regression :download:`regression.pdf <dt_regression.pdf>`.
 * Overfitting for decision tree :download:`overfitting_dt.pdf <dt_overfitting.pdf>`
+* Summary :download:`summary_dt.pdf <dt_summary.pdf>`
 
 Random Forest
 --------
