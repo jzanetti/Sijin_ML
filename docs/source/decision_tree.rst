@@ -22,4 +22,4 @@ Growing a tree
 
 Random Forest
 --------
-   Regression:`regression.pdf <some_extra_file.pdf>`. 
+* Regression:`regression.pdf <some_extra_file.pdf>`. 
