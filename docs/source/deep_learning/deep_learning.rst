@@ -5,6 +5,12 @@ A **neural network** is a series of algorithms that endeavors to recognize under
 
 Neural Network or Artificial Neural Network is one set of algorithms used in machine learning for modeling the data using graphs of Neurons.
 
+Compared to regular machine learning approach (e.g., decision tree or linear regressoin), neural network has:
+
+* advantages: neural networks have the ability to learn on their own and produce results that are not limited by the data supplied to them (e.g., data extrapolation).
+
+* disadvantages: neural networks generally require far more data than traditional machine learning methods; for example, thousands if not millions of labeled examples are needed.
+
 .. note::
 
    Neural Networks and Deep Learning (by *Charu C. Aggarwal*)
