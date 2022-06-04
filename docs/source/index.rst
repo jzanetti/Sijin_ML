@@ -1,9 +1,9 @@
 Welcome to Sijin's Machine Learning Notes
 ===================================
 
-This documentation provides an overview about how different machine learning (and deep learning) algorithms work.
+This documentation includes notes about different machine learning algorithms from Sijin's daily work.
 
-The examples used in this documentation are described as *intuitive* as possible. Most materials are adapted from some classic machine learning books including:
+The examples used in this documentation are described as *intuitive* as possible. Most materials are adapted from classic machine learning books including:
 
 * **Deep Learning** (by *I.Goodfellow*, *Y.Bengio* and *A.Courville*)
 * **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** (by *A.Géron*)

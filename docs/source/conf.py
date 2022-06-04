@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Sijin ML tutorial'
+project = 'Sijin ML Notes'
 copyright = '2021, Sijin Zhang'
 author = 'Sijin Zhang'
 
