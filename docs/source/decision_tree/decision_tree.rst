@@ -32,3 +32,8 @@ Random Forest
 Adaboost
 --------
 * How it works :download:`adaboost.pdf <pdf/adaboost.pdf>`. 
+
+Gradient Boosting
+--------
+* Classification :download:`gb_classification.pdf <pdf/gb_classification.pdf>`.
+* Regression :download:`gb_regression.pdf <pdf/gb_regression.pdf>`. 
