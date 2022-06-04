@@ -1,4 +1,4 @@
-Welcome to Sijin's Machine Learning Tutorial
+Welcome to Sijin's Machine Learning Notes
 ===================================
 
 This documentation provides an overview about how different machine learning (and deep learning) algorithms work.
