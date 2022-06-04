@@ -22,5 +22,5 @@ Contents
 
 .. toctree::
 
-   usage
+   decision_tree
    api
