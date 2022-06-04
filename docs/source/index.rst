@@ -23,5 +23,5 @@ Contents
 .. toctree::
 
    decision_tree/decision_tree
-   application/app
    evaluation/eval
+   application/app
