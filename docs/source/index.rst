@@ -23,5 +23,6 @@ Contents
 .. toctree::
 
    decision_tree/decision_tree
-   application/app
+   deep_learning/deep_learning
    evaluation/eval
+   application/app
