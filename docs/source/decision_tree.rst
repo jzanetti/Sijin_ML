@@ -11,7 +11,7 @@ It uses a decision tree (as a predictive model) to go from observations about an
 
 Decision trees are among the most popular machine learning algorithms given their intelligibility and simplicity.
 
-.. Interesting fact::
+.. note::
 
    One of the first papers in Decision Tree is Quinlan, J. R. 1986. Induction of Decision Trees. Mach. Learn. 1, 1 (Mar. 1986), 81-106
 
