@@ -13,7 +13,7 @@ Decision trees are among the most popular machine learning algorithms given thei
 
 .. note::
 
-   One of the first papers in Decision Tree is Quinlan, J. R. 1986. Induction of Decision Trees. Mach. Learn. 1, 1 (Mar. 1986), 81-106
+   Quinlan, J. R. 1986. Induction of Decision Trees. Mach. Learn. 1, 1 (Mar. 1986), 81-106
 
 Contents
 --------
