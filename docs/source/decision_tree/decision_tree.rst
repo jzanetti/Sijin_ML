@@ -36,4 +36,9 @@ Adaboost
 Gradient Boosting
 --------
 * Classification :download:`gb_classification.pdf <pdf/gb_classification.pdf>`.
-* Regression :download:`gb_regression.pdf <pdf/gb_regression.pdf>`. 
+* Regression :download:`gb_regression.pdf <pdf/gb_regression.pdf>`.
+
+XGBoost
+--------
+* Classification :download:`xgboost_classification.pdf <pdf/xgboost_classification.pdf>`.
+* Regression :download:`xgboost_regression.pdf <pdf/xgboost_regression.pdf>`. 
