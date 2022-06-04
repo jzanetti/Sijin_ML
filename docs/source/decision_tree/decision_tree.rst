@@ -17,7 +17,7 @@ Decision trees are among the most popular machine learning algorithms given thei
 
 Growing a tree
 --------
-* Classification vs Regression :download:`classification_vs_regression.pdf <some_extra_file.pdf>`.
+* Classification vs Regression :download:`classification_vs_regression.pdf <dt_regression_vs_classification.pdf>`.
 
 Random Forest
 --------
