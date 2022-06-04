@@ -23,4 +23,4 @@ Contents
 .. toctree::
 
    decision_tree/decision_tree
-   api
+   application/app
