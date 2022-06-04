@@ -17,7 +17,7 @@ Decision trees are among the most popular machine learning algorithms given thei
 
 Growing trees
 --------
-* Introduction :download:`decision_tree_introduction.pdf <pdf/dt_regression_vs_classification.pdf>`.
+* Introduction :download:`decision_tree_introduction.pdf <pdf/dt_introduction.pdf>`.
 * Classification :download:`classification.pdf <pdf/dt_classification.pdf>`
 * Regression :download:`regression.pdf <pdf/dt_regression.pdf>`.
 * Overfitting for decision tree :download:`overfitting_dt.pdf <pdf/dt_overfitting.pdf>`
