@@ -24,5 +24,6 @@ Contents
 
    decision_tree/decision_tree
    deep_learning/deep_learning
+   ensemble/ensemble
    evaluation/eval
    application/app
