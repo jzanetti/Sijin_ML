@@ -12,5 +12,7 @@ In this section, a few examples are given for demostrating the use of ensemble i
 
 Ensemble in machine learning
 --------
-* Regularization :download:`regularization.pdf <pdf/regularization.pdf>`.
-* RUC and AUC :download:`roc_and_auc.pdf <pdf/roc_and_auc.pdf>`.
+* Introduction :download:`ens_introduction.pdf <pdf/ens_introduction.pdf>`.
+* Bagging :download:`ens_bagging.pdf <pdf/ens_bagging.pdf>`.
+* Boosting :download:`ens_boosting.pdf <pdf/ens_boosting.pdf>`.
+* Stacking :download:`ens_stacking.pdf <pdf/ens_stacking.pdf>`.
