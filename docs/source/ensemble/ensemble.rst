@@ -10,9 +10,18 @@ In this section, a few examples are given for demostrating the use of ensemble i
 
    More materials are to be added. Most examples/materials used here are obtained and adpated from internet.
 
-Ensemble in machine learning
+Introduction
 --------
 * Introduction :download:`ens_introduction.pdf <pdf/ens_introduction.pdf>`.
+
+Bagging
+--------
 * Bagging :download:`ens_bagging.pdf <pdf/ens_bagging.pdf>`.
+
+Boosting
+--------
 * Boosting :download:`ens_boosting.pdf <pdf/ens_boosting.pdf>`.
+
+Stacking
+--------
 * Stacking :download:`ens_stacking.pdf <pdf/ens_stacking.pdf>`.
