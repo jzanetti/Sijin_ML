@@ -8,7 +8,7 @@ In this section, a few examples are given for demostrating the use of ensemble i
 
 .. note::
 
-   More materials are to be added. Most examples/materials used here are obtained from internet.
+   More materials are to be added. Most examples/materials used here are obtained and adpated from internet.
 
 Ensemble in machine learning
 --------
