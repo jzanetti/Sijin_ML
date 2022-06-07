@@ -12,7 +12,7 @@ Model evaluation
 * RUC and AUC :download:`roc_and_auc.pdf <pdf/roc_and_auc.pdf>`.
 
 Feature importance
-^^^^^^^^
+--------
 * Introduction :download:`feature_importance_introduction.pdf <pdf/feature_importance_introduction.pdf>`.
 * Gini-impurity method :download:`feature_importance_gini.pdf <pdf/feature_importance_gini.pdf>`.
 * Permutation method :download:`feature_importance_permutation.pdf <pdf/feature_importance_permutation.pdf>`.
