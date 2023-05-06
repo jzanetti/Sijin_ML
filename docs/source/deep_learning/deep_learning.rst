@@ -27,3 +27,7 @@ Recurrent neural network
 --------
 * Simple RNN :download:`rnn_simple_rnn.pdf <pdf/rnn_simple_rnn.pdf>`. 
 * LSTM :download:`rnn_lstm.pdf <pdf/rnn_lstm.pdf>`. 
+
+Generative Adversarial Network
+--------
+* Introduction :download:`gan.pdf <pdf/gan.pdf>`.
