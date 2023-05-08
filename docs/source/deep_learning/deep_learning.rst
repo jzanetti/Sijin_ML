@@ -31,3 +31,7 @@ Recurrent neural network
 Generative Adversarial Network
 --------
 * Introduction :download:`gan.pdf <pdf/gan.pdf>`.
+
+Graph Neural Network
+--------
+* Introduction :download:`gnn.pdf <pdf/gnn.pdf>`.
