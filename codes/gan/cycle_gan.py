@@ -68,7 +68,6 @@ G_BA = GeneratorResNet(input_shape, opt.n_residual_blocks)
 D_A = Discriminator(input_shape)
 D_B = Discriminator(input_shape)
 
-use_m1_gpu = False
 if cuda:
     G_AB = G_AB.cuda()
     G_BA = G_BA.cuda()
@@ -78,15 +77,15 @@ if cuda:
     criterion_cycle.cuda()
     criterion_identity.cuda()
 else:
-    if use_m1_gpu:
-        device = "mps" if torch.backends.mps.is_available() else "cpu"
-        G_AB = G_AB.to(device)
-        G_BA = G_BA.to(device)
-        D_A = D_A.to(device)
-        D_B = D_B.to(device)
-        criterion_GAN.to(device)
-        criterion_cycle.to(device)
-        criterion_identity.to(device)
+    device = "mps" if torch.backends.mps.is_available() else "cpu"
+    # device = "cpu"
+    G_AB = G_AB.to(device)
+    G_BA = G_BA.to(device)
+    D_A = D_A.to(device)
+    D_B = D_B.to(device)
+    criterion_GAN.to(device)
+    criterion_cycle.to(device)
+    criterion_identity.to(device)
 
 if opt.epoch != 0:
     # Load pretrained models
@@ -165,9 +164,9 @@ def sample_images(batches_done):
     imgs = next(iter(val_dataloader))
     G_AB.eval()
     G_BA.eval()
-    real_A = Variable(imgs["A"].type(Tensor))
+    real_A = Variable(imgs["A"].type(Tensor)).to(device)
     fake_B = G_AB(real_A)
-    real_B = Variable(imgs["B"].type(Tensor))
+    real_B = Variable(imgs["B"].type(Tensor)).to(device)
     fake_A = G_BA(real_B)
     # Arange images along x-axis
     real_A = make_grid(real_A, nrow=5, normalize=True)
@@ -188,12 +187,12 @@ for epoch in range(opt.epoch, opt.n_epochs):
     for i, batch in enumerate(dataloader):
 
         # Set model input
-        real_A = Variable(batch["A"].type(Tensor))
-        real_B = Variable(batch["B"].type(Tensor))
+        real_A = Variable(batch["A"].type(Tensor)).to(device)
+        real_B = Variable(batch["B"].type(Tensor)).to(device)
 
         # Adversarial ground truths
-        valid = Variable(Tensor(np.ones((real_A.size(0), *D_A.output_shape))), requires_grad=False)
-        fake = Variable(Tensor(np.zeros((real_A.size(0), *D_A.output_shape))), requires_grad=False)
+        valid = Variable(Tensor(np.ones((real_A.size(0), *D_A.output_shape))), requires_grad=False).to(device)
+        fake = Variable(Tensor(np.zeros((real_A.size(0), *D_A.output_shape))), requires_grad=False).to(device)
 
         # ------------------
         #  Train Generators
