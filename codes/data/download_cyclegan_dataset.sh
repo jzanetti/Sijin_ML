@@ -8,10 +8,10 @@ if [[ $FILE != "ae_photos" && $FILE != "apple2orange" && $FILE != "summer2winter
 fi
 
 URL=https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/$FILE.zip
-ZIP_FILE=./$FILE.zip
-TARGET_DIR=./$FILE
+ZIP_FILE=./datasets/$FILE.zip
+TARGET_DIR=./datasets/$FILE
 wget -N $URL -O $ZIP_FILE
-unzip $ZIP_FILE -d .
+unzip $ZIP_FILE -d ./datasets/
 rm $ZIP_FILE
 
 # Adapt to project expected directory heriarchy

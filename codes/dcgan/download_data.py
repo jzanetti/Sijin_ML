@@ -1,1 +1,0 @@
-# https://towardsdatascience.com/build-a-super-simple-gan-in-pytorch-54ba349920e4

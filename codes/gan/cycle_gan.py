@@ -1,4 +1,5 @@
 # https://github.com/eriklindernoren/PyTorch-GAN#cyclegan
+# In AWS: export PYTHONPATH=/home/ubuntu/Sijin_ML/codes/gan/cycle_gan:$PYTHONPATH
 import argparse
 import os
 import numpy as np
@@ -14,9 +15,9 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torch.autograd import Variable
 
-from models import *
-from datasets import *
-from utils import *
+from cycle_gan.models import *
+from cycle_gan.datasets import *
+from cycle_gan.utils import *
 
 import torch.nn as nn
 import torch.nn.functional as F
@@ -44,6 +45,7 @@ parser.add_argument("--lambda_id", type=float, default=5.0, help="identity loss 
 opt = parser.parse_args(
     [
         "--dataset_name", "monet2photo",
+        "--batch_size", "1",
         "--img_dir", "/Users/sijinzhang/Github/PyTorch-GAN/data"
     ])
 
@@ -69,6 +71,7 @@ D_A = Discriminator(input_shape)
 D_B = Discriminator(input_shape)
 
 if cuda:
+    device = "cuda"
     G_AB = G_AB.cuda()
     G_BA = G_BA.cuda()
     D_A = D_A.cuda()
@@ -77,6 +80,7 @@ if cuda:
     criterion_cycle.cuda()
     criterion_identity.cuda()
 else:
+    # os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
     device = "mps" if torch.backends.mps.is_available() else "cpu"
     # device = "cpu"
     G_AB = G_AB.to(device)
