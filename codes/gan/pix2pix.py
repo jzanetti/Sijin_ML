@@ -47,7 +47,7 @@ opt = parser.parse_args()
 
 opt = parser.parse_args(
     [
-        "--dataset_name", "facades",
+        "--dataset_name", "night2day",
         "--batch_size", "10",
         "--img_dir", "/Users/sijinzhang/Github/Sijin_ML/codes/data/datasets"
     ])
@@ -150,7 +150,6 @@ prev_time = time.time()
 
 for epoch in range(opt.epoch, opt.n_epochs):
     for i, batch in enumerate(dataloader):
-        print(i)
         # Model inputs
         real_A = Variable(batch["B"].type(Tensor)).to(device)
         real_B = Variable(batch["A"].type(Tensor)).to(device)
